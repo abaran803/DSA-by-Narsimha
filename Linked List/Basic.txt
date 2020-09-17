@@ -1,0 +1,66 @@
+======================================================================================================
+
+Singly Linked List or Linked List
+
+------------------------------------------------------------------------------------------------------
+
+	Main Linked List operations
+		Insert -> Insert an element
+		Delete -> Remove an element
+
+	Auxiliary Linked List operations
+		Delete List -> Remove all elements
+		Count -> Return number of elements
+		Find nth node from end of list
+
+------------------------------------------------------------------------------------------------------
+
+	Linked List 									vs 										Array
+
+	Accessing Element/Indexing -> O(n)							Accessing Element/Indexing -> O(1)
+	Preallocation of Memory -> No 								Preallocation of Memory -> Yes
+	Fixed Size -> No 											Fixed Size -> Yes
+	Extra space for Pointer										No extra space other than element
+	Expand in constant time										Don't expand
+	Non-Contiguous Memory allocation							Contiguous Memory allocation
+	No CPU caching												Greate CPU caching
+	Insert/Delete at beginning	-> O(1)							Insert/Delete at beginning	-> O(n)
+	Insert/Delete at end -> O(n)								Insert/Delete at end -> O(1)
+
+------------------------------------------------------------------------------------------------------
+
+	Basic Operation ->
+		Traversing the list -> O(n)
+		Inserting an element in list
+		Deleting an element from list
+
+======================================================================================================
+
+Doubly Linked List or Two-way Linked List
+
+------------------------------------------------------------------------------------------------------
+
+	Features/Advantage ->
+		Can navigate in both direction
+		Delete a node of only its pointer, not the pointer of its preceeding node, is given
+		Can traverse in reverse direction
+
+------------------------------------------------------------------------------------------------------
+
+	Disadvantage ->
+		Require more extra space as each node require an extra pointer
+		Insertion and deletion of nodes takes a bit longer (more pointer operation)
+
+	Note: All the operations are similer to Operations in Singly Linked List
+
+======================================================================================================
+
+Circular Linked List
+
+------------------------------------------------------------------------------------------------------
+
+	There is no NULL pointer in CLL
+	Due to no NULL pointer the traversal end when reaching head again
+	For Traversal and Counting use do while loop
+
+======================================================================================================

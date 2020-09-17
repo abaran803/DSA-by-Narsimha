@@ -1,0 +1,67 @@
+======================================================================================================
+
+Tree
+
+------------------------------------------------------------------------------------------------------
+
+	Root -> Node with no parent (maximum 1 for a tree)
+	Parent -> Node one level up
+	Child -> Node one level down
+	Edge -> Link b/w parent child Node
+	Leaf -> Node with no child
+	Siblings -> Nodes having same parent
+	Depth -> Distance from root (root is consider 0 and Nodes attached to root consider as 1 so on..)
+	Height -> Distance b/w Node at bottommost and the Node
+	Heigh of Tree -> Maximum height among all the Nodes
+	Depth of Tree -> Maximum depth among all Nodes
+	Size of Node -> Number of descendants(nodes after it) including itself
+	Skew Tree -> Every Nodes(except) having only one child
+		Left Skew Tree -> All children are on left
+		Right Skew Tree -> All children are on right
+
+	Confuse b/w depth and height used here and used in after next topic for counting number of Nodes
+
+------------------------------------------------------------------------------------------------------
+
+	Binary Trees
+		Condition -> Each and every Nodes can have only 0, 1 or 2 childern
+		Strict Binary Tree -> Every Nodes(except leaf) have 2 children
+		Full Binary Tree -> Every Nodes(except leaf) have 2 children and all leaves are at same level
+
+------------------------------------------------------------------------------------------------------
+
+	Properties of Binary Tree ->
+		If we assume root at height 0 and Nodes below it at 1 so on...
+		For a full binary tree ->
+			Number of Nodes at height h = 2^h
+			Number of Nodes till height h = 2^0+2^1+...+2^h = 2^(h+1)-1 (GP Sum)
+			Number of leaf leaf Nodes = 2^h (if height of tree = h)
+		For complete binary tree ->
+			Minimum number of Nodes = 2^h
+			Maximum number of Nodes = 2^(h+1)-1
+
+------------------------------------------------------------------------------------------------------
+	
+	Basic Operations ->
+		Inserting
+		Deleting
+		Searching
+		Traversing
+
+	Auxiliary Operations ->
+		Size of Tree
+		Height of Tree
+		Level which has maximum sum
+		Least common ancestor for given pair of Nodes
+
+------------------------------------------------------------------------------------------------------
+
+	PreOrder Traversal ->
+		Visit the root
+		Traverse the left subtree in Preorder
+		Traverse the right subtree in Preorder
+
+	InOrder Traversal ->
+		Traverse the left subtree in Inorder.
+		Visit the root.
+		Traverse the right subtree in Inorder.

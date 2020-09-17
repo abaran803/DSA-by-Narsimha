@@ -1,0 +1,58 @@
+======================================================================================================
+
+Queue
+
+------------------------------------------------------------------------------------------------------
+
+	Based on ->
+		First In First Out (FIFO)
+		Last In Last Out (LILO)
+
+------------------------------------------------------------------------------------------------------
+
+	Basic Operations ->
+		EnQueue -> Inserting an element at last
+		DeQueue -> Removing first element
+
+------------------------------------------------------------------------------------------------------
+
+	Exceptions ->
+		DeQueueing an empty queue -> Underflow
+		EnQueueing a full queue -> Overflow
+
+------------------------------------------------------------------------------------------------------
+
+	Main Queue Operations ->
+		EnQueue -> Insert an element at the end
+		DeQueue -> Remove and return first element
+
+	Auxiliary Queue Operations ->
+		Front() -> Return first element
+		QueueSize() -> Return number of elements
+		IsEmptyQueue() -> Return true if Queue is empty else false
+
+------------------------------------------------------------------------------------------------------
+
+	Implementation using Circular Array ->
+		EnQueue() -> O(1)
+		DeQueue() -> O(1)
+		IsEmptyQueue() -> O(1)
+		IsFullQueue() -> O(1)
+		QueueSize() -> O(1)
+		DeleteQueue() -> O(1)
+
+------------------------------------------------------------------------------------------------------
+
+	Implementation using Dynamic Array ->
+
+------------------------------------------------------------------------------------------------------
+	
+	Implementation using Linked List ->
+		EnQueue() -> O(1)
+		DeQueue() -> O(1)
+		IsEmptyQueue -> O(1)
+		DeleteQueue -> O(1)
+
+	Comparision -> Similer as in Stack
+
+======================================================================================================

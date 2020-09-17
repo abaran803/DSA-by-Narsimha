@@ -1,0 +1,76 @@
+======================================================================================================
+
+Stacks
+
+------------------------------------------------------------------------------------------------------
+
+	Type -> 
+		First In Last Out (FILO)
+		Last In First Out (LIFO)
+
+------------------------------------------------------------------------------------------------------
+	
+	Basic Operations ->
+		Push -> Inserting an element at last
+		Pop -> Removing an element from last
+
+------------------------------------------------------------------------------------------------------
+
+	Corner Cases ->
+		Pop out an empty stack called Underflow
+		Push an element in a full stack called Overflow
+
+------------------------------------------------------------------------------------------------------
+
+	Main stack operations ->
+		Push(element) -> Insert element to top of stack and increment top
+		Pop() -> Return and pop element at top and decrement top
+
+	Auxiliary stack operations ->
+		Top() -> Return element at top
+		Size() -> Return number of elements in stack
+		IsEmptyStack() -> Return true if stack is empty else return false
+		IsFullStack() -> Return true if stack is full else false
+
+------------------------------------------------------------------------------------------------------
+
+	Implementation using Array ->
+
+		Time Complexity ->
+			Push() -> O(1)
+			Pop() -> O(1)
+			Size() -> O(1)
+			IsEmptyStack() -> O(1)
+			IsFullStack() -> O(1)
+			DeleteStack() -> O(1)
+
+		Limitation -> 
+			Fixed Size
+
+------------------------------------------------------------------------------------------------------
+
+	Impementation using Dynamic Array
+
+		Time Complexity -> 
+			CreateStack -> O(1)
+			Push() -> O(1) (Average)
+			Pop() -> O(1)
+			Top() -> O(1)
+			IsEmptyStack() -> O(1)
+			ISFullStack() -> O(1)
+			DeleteStack -> O(1)
+
+------------------------------------------------------------------------------------------------------
+	
+	Implementation using Linked List
+
+		Time Complexity ->
+			CreateStack -> O(1)
+			Push() -> O(1) (Average)
+			Pop() -> O(1)
+			Top() -> O(1)
+			IsEmptyStack() -> O(1)
+			ISFullStack() -> O(1)
+			DeleteStack -> O(n)
+
+======================================================================================================
